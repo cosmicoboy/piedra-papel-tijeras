@@ -1,0 +1,39 @@
+body{
+    background-color: chocolate;
+    text-align: center;
+    margin: 10%;
+
+}
+
+.container{
+    background-color: blueviolet;
+    padding: 30px;
+    border-radius: 30%;
+    font-family: 'DotGothic16', sans-serif;
+
+}
+
+#opciones input{
+    width: 200px;
+}
+
+#eleccionuser{
+    width: 150px;
+}
+
+#eleccionpc{
+    width: 150px;
+}
+.boton1{
+    color: darkcyan;
+    background-color: rgb(30, 198, 210);
+    border-radius: 30px;
+    border-width: 10px;
+    text-align: center;
+    font-family: 'DotGothic16', sans-serif;
+}
+.boton1:hover{
+    color: darkgreen;
+    background-color: darkolivegreen;
+    border-radius: 30px;
+}

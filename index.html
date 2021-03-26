@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- stylecss -->
+    <link rel="stylesheet" href="style.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>piedra, papel y tijera</h1>
+
+        <div id="opciones">
+            <!-- opciones posibles -->
+            <input type="image" src="C:\Users\Cosmic\Desktop\Programación\HTML\4\piedras.png" alt="piedra" id="piedra" onclick="getOption(this.id)">
+            <input type="image" src="C:\Users\Cosmic\Desktop\Programación\HTML\4\papel.png" alt="papel" id="papel" onclick="getOption(this.id)">
+            <input type="image" src="C:\Users\Cosmic\Desktop\Programación\HTML\4\tijeras.png" alt="tijera" id="tijera" onclick="getOption(this.id)">  
+        </div>
+
+
+
+        <div id="resultados">
+            <h4 id ="leyenda_correspondiente"></h4>
+            <!-- resultados user/pc -->
+            <input type="image" src="" id="eleccionuser">
+            <input type="image" src="" id="eleccionpc">
+            <input class="boton1" type="button" value="reiniciar" onclick= "resetgame()">
+        </div>
+
+
+    </div>
+
+
+    <!-- indexjs -->
+    <script src="index.js"></script>
+
+</body>
+
+</html>
