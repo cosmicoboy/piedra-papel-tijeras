@@ -24,11 +24,11 @@ const getOption = (opcion) => {
 
 const checkresult = (index_computer, index_user) =>{
     if((index_computer-1) === index_user) {
-        result_label.innerText = "has perdido"
-        console.log ("has perdido");
+        result_label.innerText = "Has perdido"
+        console.log ("Has perdido");
     } else {
-        result_label.innerText = "has ganado"
-        console.log("has ganado");
+        result_label.innerText = "Has ganado"
+        console.log("Has ganado");
     }
 }
 
@@ -39,8 +39,8 @@ const gamelogic = () => {
     div_resultados.style.display = "block";
     console.log(index_computer, index_user)
     if (index_user === index_computer) {
-        result_label.innerText = "empate"
-        console.log("empate");
+        result_label.innerText = "Empate"
+        console.log("Empate");
     } else if (index_user === 0) {
         checkresult(index_computer, index_user);
     } else if (index_user === 1){
@@ -57,16 +57,16 @@ const gamelogic = () => {
 const setimage = (index) => {
     let src_image;
     if (index === 0) {
-        src_image = "piedras.png";
+        src_image = "./images/piedras.png";
     } else if (index === 1) {
-        src_image = "papel.png";
+        src_image = "./images/papel.png";
     } else {
-        src_image = "tijeras.png";
+        src_image = "./images/tijeras.png";
     }
     return src_image;
 }
 
 const resetgame = () => {
-    div_opciones.style.display = "block";
+    div_opciones.style.display = "flex";
     div_resultados.style.display = "none";
 }

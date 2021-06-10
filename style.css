@@ -1,39 +1,53 @@
-body{
-    background-color: chocolate;
+#prueba {
+    background-image: url("./images/fondobosque.jpg");
     text-align: center;
     margin: 10%;
-
 }
 
-.container{
-    background-color: blueviolet;
+.container {
+    background-color: rgba(96, 221, 113, 0.534);
     padding: 30px;
-    border-radius: 30%;
+    border-radius: 30px;
     font-family: 'DotGothic16', sans-serif;
 
 }
 
-#opciones input{
+#opciones input {
     width: 200px;
+    transition: transform 0.5s, filter 0.5s, width 0.5s;
 }
 
-#eleccionuser{
+#opciones input:hover {
+    transform: rotate(20deg);
+    filter: drop-shadow(5px 4px 3px rgba(41, 38, 38, 0.8));
+    width: 20%;
+} 
+
+#eleccionuser {
     width: 150px;
 }
 
-#eleccionpc{
+#eleccionpc {
     width: 150px;
 }
-.boton1{
-    color: darkcyan;
-    background-color: rgb(30, 198, 210);
-    border-radius: 30px;
-    border-width: 10px;
-    text-align: center;
-    font-family: 'DotGothic16', sans-serif;
+
+#resultados {
+    display: none;
+    flex-direction: column;
 }
-.boton1:hover{
-    color: darkgreen;
-    background-color: darkolivegreen;
-    border-radius: 30px;
+
+#opciones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+#title {
+    font-size: 60px;
+}
+
+.btn {
+    width: 250px;
 }
