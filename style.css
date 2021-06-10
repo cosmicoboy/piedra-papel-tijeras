@@ -51,6 +51,7 @@ html {
 #resultados {
     display: none;
     flex-direction: column;
+    border: 0;
 }
 
 #opciones {
