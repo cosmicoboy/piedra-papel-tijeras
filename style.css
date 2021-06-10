@@ -1,9 +1,13 @@
 #cuerpo {
-    background-image: url("./images/fondobosque.jpg");
     text-align: center;
-    /* margin: 10%; */
     width: 100%;
-    object-fit: cover;
+    height: 100%;
+    background-color: crimson;
+
+}
+
+.bg {
+    background-image: url("./images/fondobosque.jpg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
