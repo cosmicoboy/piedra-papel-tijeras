@@ -31,6 +31,7 @@ html {
     width: 200px;
     transition: transform 0.5s, filter 0.5s, width 0.5s;
     background: transparent;
+    border: 0;
 }
 
 #opciones input:hover {
